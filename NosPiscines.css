@@ -16,8 +16,8 @@ a {
 }
 
 nav{
-  height: 100px;
-  width: 600px;
+  height: 90%;
+  width: 38%;
   position: relative;
   left : 710px;
 }
@@ -72,6 +72,14 @@ display: inline-block;
   display: inline-block;
     border-collapse: collapse;
     border: 1px solid black;
+  }
+    footer {
+      color: white;
+    position:absolute;
+    width:99%;
+    background: #404040 ;
+    border-top: 2px solid #FFFFFF;
+    }
 }
 @media (max-width: 393px) {
 

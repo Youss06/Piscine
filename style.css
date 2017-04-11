@@ -76,6 +76,7 @@ display: inline-block;
   float: left;
 }
 footer {
+  color: white;
 position:absolute;
 width:99%;
 background: #404040 ;

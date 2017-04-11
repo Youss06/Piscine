@@ -15,7 +15,7 @@ header {
 
 nav{
   height: 100px;
-  width: 600px;
+  width: 44%;
   position: relative;
   left : 710px;
 }
@@ -67,6 +67,14 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
+footer {
+  color: white;
+position:absolute;
+width:99%;
+background: #404040 ;
+border-top: 2px solid #FFFFFF;
+}
+
 @media (max-width: 393px) {
 
   .logo {
