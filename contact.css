@@ -19,7 +19,9 @@ nav{
   position: relative;
   left : 710px;
 }
-
+a {
+  color: red;
+}
 
 li {
   display: inline;
@@ -48,12 +50,70 @@ input {
 }
 
 
-h2 {
+/*h2 {
   text-align: center;
+}*/
+.contact {
+  display: inline-block;
 }
 
+.qui {
+  display: inline-block;
+  width: 300px;
+  margin-left: 300px;
+}
 iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+@media (max-width: 393px) {
+
+  .logo {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+a {
+  color: #B22222;
+}
+nav{
+  height: 100%;
+  width: 40%;
+  position: relative;
+  left : 60%;
+}
+.contact {
+display: block;
+}
+
+.qui {
+
+  margin: auto 0 auto 1em;
+  width: 200px;
+display: block;
+}
+iframe {
+  width: 90%;
+}
+}
+
+@media (min-width: 394px) and (max-width: 991px) {
+  body {
+    background-color: #00F0E0;
+  }
+
+  header {
+    text-align: center;
+  }
+  nav{
+    height: 100px;
+    width: 80%;
+    position: relative;
+    left : 20%;
+}
+.logo {
+  width: 60%;
 }

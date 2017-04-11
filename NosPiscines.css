@@ -5,7 +5,9 @@ body {
 header {
   text-align: center;
 }
-
+a {
+  color: red;
+}
 .logo {
   width: 400px;
   display: block;
@@ -70,4 +72,78 @@ display: inline-block;
   display: inline-block;
     border-collapse: collapse;
     border: 1px solid black;
+}
+@media (max-width: 393px) {
+
+  .logo {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+a {
+  color: #B22222;
+}
+nav{
+  height: 100%;
+  width: 40%;
+  position: relative;
+  left : 60%;
+}
+.enterrée {
+  width: 100%;
+}
+.prix, .prix2, .prix3 {
+  font-size: 12px;
+}
+.luxuary {
+  width: 100%;
+}
+.garteen {
+  width: 100%;
+}
+}
+
+
+@media (min-width: 394px) and (max-width: 991px) {
+  body {
+    background-color: #00F0E0;
+  }
+
+  header {
+    text-align: center;
+  }
+  nav{
+    height: 100px;
+    width: 80%;
+    position: relative;
+    left : 20%;
+}
+a {
+  color: #B22222;
+}
+
+.logo {
+  width: 60%;
+}
+.enterrée {
+  width: 40%;
+}
+.prix {
+
+  font-size: 14px;
+}
+.luxuary {
+  width: 40%;
+}
+.prix2 {
+  font-size: 14px;
+}
+.garteen {
+width: 40%;
+}
+.prix3 {
+  font-size: 14px;
+}
 }

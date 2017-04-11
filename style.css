@@ -8,7 +8,7 @@ header {
 }
 
 .logo {
-  width: 600px;
+  width: 80%;
 
   display: block;
   margin-left: auto;
@@ -16,12 +16,15 @@ header {
 }
 
 nav{
-  height: 100px;
-  width: 600px;
+  height: 100%;
+  width: 40%;
   position: relative;
-  left : 710px;
+  left : 60%;
 }
 
+a {
+  color: #B22222;
+}
 
 li {
   display: inline;
@@ -36,16 +39,18 @@ section h2 {
 }
 
 .enterrée {
+  display: inline-block;
   width: 600px;
 }
 
 .description {
+  display: inline-block;
   float: right;
   left: 710px;
 }
 
 button {
-  float: right;
+display: inline-block;
 }
 
 .second {
@@ -54,4 +59,69 @@ button {
 
 .descriptions {
   float: left;
+}
+
+@media (max-width: 393px) {
+
+  .logo {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.enterrée {display: inline-block;
+  width: 65%;
+}
+a {
+  color: #B22222;
+}
+
+.description {
+  display: inline-block;
+  width: auto;
+}
+button {
+  display: block;
+}
+
+.luxe {
+  display:inline-block;
+  width: 65%;
+}
+
+}
+@media (min-width: 394px) and (max-width: 991px) {
+  body {
+    background-color: #00F0E0;
+  }
+
+  header {
+    text-align: center;
+  }
+  nav{
+    height: 100px;
+    width: 80%;
+    position: relative;
+    left : 20%;
+}
+.logo {
+  width: 60%;
+}
+.enterrée {
+  display: inline-block;
+  width: 40%;
+}
+.description {
+  display: inline-block;
+  font-size: 1.5em;
+}
+.luxe {
+  display: inline-block;
+width: 40%;
+}
+.descriptions {
+  display: inline-block;
+  font-size: 15px;
+}
+
 }
