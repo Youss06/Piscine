@@ -38,6 +38,9 @@ section h2 {
   text-align: center;
 }
 
+figure {
+  display: inline-block;
+}
 .enterrée {
   display: inline-block;
   width: 600px;
@@ -51,6 +54,18 @@ section h2 {
 
 button {
 display: inline-block;
+  width: 20%;
+  height: 20%;
+  box-shadow: 2px 2px 2px 2px;
+}
+.second {
+  display: inline-block;
+    width: 20%;
+    height: 20%;
+    vertical-align: top 30%;
+    box-shadow: 2px 2px 2px 2px;
+  }
+
 }
 
 .second {
@@ -59,6 +74,16 @@ display: inline-block;
 
 .descriptions {
   float: left;
+}
+footer {
+position:absolute;
+width:99%;
+background: #404040 ;
+border-top: 2px solid #FFFFFF;
+}
+
+.footer {
+  width: 90%;
 }
 
 @media (max-width: 393px) {
